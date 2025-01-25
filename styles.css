@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    gap: 2rem;
+}
+
+header{
+    background-color: #dccfba;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section{
+    flex: 1;
+}
+#appetizers{
+    flex: 2;
+}
+
+ ul li span{
+    font-weight: bold;
+}
+
+#appetizers{
+    background-color: rgb(172, 110, 229);
+}
